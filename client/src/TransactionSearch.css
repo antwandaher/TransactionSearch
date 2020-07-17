@@ -1,0 +1,67 @@
+.SearchBox {
+  margin: 0 auto;
+  width: 60%;
+  height: 40px;
+  border-radius: 8px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px lightblue solid;
+}
+.SearchBox-Button {
+  height: 100%;
+  width: 20%;
+  border: none;
+  padding: 2px 2px 8px 2px;
+  border-radius: 0 8px 8px 0;
+}
+
+.SearchBox-Button:hover {
+  background-color: antiquewhite;
+}
+
+.SearchBox-Input {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: none;
+  background: none;
+  box-shadow: none;
+}
+
+.DisplayResult {
+  text-align: center;
+  align-items: center;
+}
+.Form {
+  text-align: center;
+  height: 50%
+}
+
+.Container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ProductContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  overflow-y: scroll;
+  height: 40vh;
+}
+
+.ProductCard {
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.ProductCard-Title {
+  text-align: left;
+  border-bottom: 1px lightgrey solid;
+  font-size: large;
+}

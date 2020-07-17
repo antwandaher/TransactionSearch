@@ -1,0 +1,151 @@
+{
+  "transactions": [
+    {
+      "id": 0,
+      "prods": [
+        {
+          "id": 0,
+          "onsale": true
+        },
+        {
+          "id": 1,
+          "onsale": true
+        },
+        {
+          "id": 3,
+          "onsale": false
+        }
+      ],
+      "transaction_date": "2020-06-03T12:27:40 +04:00"
+    },
+    {
+      "id": 1,
+      "prods": [
+        {
+          "id": 7,
+          "onsale": false
+        }
+      ],
+      "transaction_date": "2020-06-06T05:49:14 +04:00"
+    },
+    {
+      "id": 2,
+      "prods": [
+        {
+          "id": 2,
+          "onsale": true
+        }
+      ],
+      "transaction_date": "2020-06-09T10:10:17 +04:00"
+    },
+    {
+      "id": 3,
+      "prods": [
+        {
+          "id": 4,
+          "onsale": false
+        },
+        {
+          "id": 5,
+          "onsale": true
+        }
+      ],
+      "transaction_date": "2020-05-04T03:27:12 +04:00"
+    },
+    {
+      "id": 4,
+      "prods": [
+        {
+          "id": 8,
+          "onsale": true
+        },
+        {
+          "id": 2,
+          "onsale": true
+        }
+      ],
+      "transaction_date": "2020-06-19T08:23:18 +04:00"
+    },
+    {
+      "id": 5,
+      "prods": [
+        {
+          "id": 6,
+          "onsale": true
+        }
+      ],
+      "transaction_date": "2020-05-28T07:34:16 +04:00"
+    },
+    {
+      "id": 6,
+      "prods": [
+        {
+          "id": 3,
+          "onsale": false
+        },{
+          "id": 4,
+          "onsale": false
+        },
+        {
+          "id": 5,
+          "onsale": false
+        },
+        {
+          "id": 6,
+          "onsale": false
+        },{
+          "id": 7,
+          "onsale": false
+        }
+      ],
+      "transaction_date": "2020-06-04T03:27:12 +04:00"
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "returnable": false,
+      "company": "AAA"
+    },
+    {
+      "id": 1,
+      "returnable": false,
+      "company": "BBB"
+    },
+    {
+      "id": 2,
+      "returnable": true,
+      "company": "AAA"
+    },
+    {
+      "id": 3,
+      "returnable": true,
+      "company": "AAA"
+    },
+    {
+      "id": 4,
+      "returnable": true,
+      "company": "BBB"
+    },
+    {
+      "id": 5,
+      "returnable": false,
+      "company": "BBB"
+    },
+    {
+      "id": 6,
+      "returnable": false,
+      "company": "CCC"
+    },
+    {
+      "id": 7,
+      "returnable": true,
+      "company": "AAA"
+    },
+    {
+      "id": 8,
+      "returnable": false,
+      "company": "CCC"
+    }
+  ]
+}
